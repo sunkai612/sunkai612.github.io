@@ -6,16 +6,6 @@ categories: jekyll update
 tags: featured
 image: /assets/article_images/2015-05-03-code-war-programming-colosseum/forest_rails_road.jpg
 ---
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-62540281-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 最近發現了一個很有趣的網站：[Code War][code-war]
 
@@ -100,6 +90,17 @@ end
 看了這麼多，是否也開始覺得有趣了呢：）？<br><br>
 如果有想到其他的解法，歡迎留言跟我說喲！<br><br>
 然後也一起加入來玩 [Code War][code-war] 吧XD
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62540281-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 [code-war]:    http://www.codewars.com/
 [code-kata]:   http://en.wikipedia.org/wiki/Kata_(programming)
