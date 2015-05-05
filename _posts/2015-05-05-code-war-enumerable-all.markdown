@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Code War - 程式競技場"
+title:  "Code War - 來做個 all? 吧"
 date:   2015-05-05 20:00:00
 categories: jekyll update
 tags: featured
