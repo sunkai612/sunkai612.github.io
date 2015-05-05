@@ -16,7 +16,6 @@ image: /assets/article_images/2015-05-03-code-war-programming-colosseum/forest_r
 #話不多說，開始挑戰
 <br>
 在上次我們挑戰了[「產出 n 個，x 的倍數」][count-by]之後，今天要挑戰的是...
-
 #題目
 <br>
 ###要求：
@@ -53,7 +52,7 @@ def all? array, &block
   end
 end
 {% endhighlight %}
-<br><br>
+<br>
 ###除了迭代外，還可用 reduce
 {% highlight ruby %}
 def all? array, &block
@@ -95,7 +94,7 @@ def all? array, &block
   array.empty? || (array.all? &block)
 end
 {% endhighlight %}
-先檢查是否為空，再執行檢查。
+筆者的寫法：先檢查是否為空，再執行檢查。
 但殊不知看其他人解法時發現：
 {% highlight ruby %}
 def all? array, &block
@@ -112,7 +111,7 @@ end
 [1,3,5,7,8].any? {|e| e.even?}
 #=> true
 {% endhighlight %}
-<br><br>
+<br>
 ###JavaScript 裡面相應的方法
 <br>
 在 JavaScript 裡面，all? 跟 any? 分別對應到 every 跟 some，不過寫法略有不同：
